@@ -14,7 +14,7 @@ const projects = [
   "id": 2,
   "title": "VideoCon - Video Chat Application",
   "description": "A robust, real-time video chat application enabling one-to-one calls and secure communication. Built with React.js for a responsive frontend and Node.js/Express.js for the backend, it leverages WebRTC for direct peer-to-peer video streaming and Socket.IO for real-time signaling and integrated chat functionality. The application includes a comprehensive user authentication system, a friend request management feature, and stores user data, connections, and chat history in MongoDB.",
-  "image": "/projects/videoCon.jpg",
+  "image": "/projects/videoCon.png",
   "tags": ["React.js", "Node.js", "Express.js", "MongoDB", "WebRTC", "Socket.IO", "Real-time Communication", "User Authentication", "Chat Functionality", "Responsive Design"],
   "demoUrl": "#",
   "githubUrl": "https://github.com/Yogendrasinghrathod/VideoCon"
