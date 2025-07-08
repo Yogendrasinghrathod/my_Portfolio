@@ -5,7 +5,7 @@ const projects = [
   "id": 1,
   "title": "EduMa - Online Learning Platform",
   "description": "A comprehensive, full-stack Coursera-style Learning Management System (LMS) enabling instructors to create and sell courses, while providing students with a secure and intuitive learning experience. Features include robust user authentication (custom JWT and Firebase), secure payment integration with Razorpay, efficient media handling via Cloudinary for video lectures and profile images, and a highly responsive UI built with React.js, Tailwind CSS, and ShadCN, supporting both light/dark modes and optimized for all device sizes.",
-  "image": "eduMa.jpg",
+  "image": "https://drive.google.com/file/d/1lfbF2l8BXss4BmG0JRfe-9AkhZ-hv2_3/view?usp=sharing",
   "tags": ["React.js", "Node.js", "Express.js", "MongoDB", "Redux", "Cloudinary", "Razorpay", "JWT", "Firebase Auth", "Tailwind CSS", "ShadCN", "Responsive Design", "LMS"],
   "demoUrl": "https://edu-ma.netlify.app/",
   "githubUrl": "https://github.com/Yogendrasinghrathod/Edu-Ma"
