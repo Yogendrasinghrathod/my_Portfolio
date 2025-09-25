@@ -5,7 +5,6 @@ import {
   MapPin,
   Phone,
   Send,
-  Twitch,
   Twitter,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -37,7 +36,7 @@ export const ContactSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Got a groundbreaking idea or need a skilled backend developer for your next venture? Don't hesitate to get in touch! I'm passionate about exploring fresh opportunities and contributing my expertise to create exceptional web experiences.
+          Got a groundbreaking idea or need a skilled backend developer for your next venture? Don&apos;t hesitate to get in touch! I&apos;m passionate about exploring fresh opportunities and contributing my expertise to create exceptional web experiences.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -55,7 +54,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Email</h4>
                   <a
-                    href="mailto:hello@gmail.com"
+                    href="mailto:rathodyogi91221@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     rathodyogi91221@gmail.com
@@ -90,7 +89,7 @@ export const ContactSection = () => {
             </div>
 
             <div className="pt-8">
-              <h4 className="font-medium mb-4">Let's Connect</h4>
+              <h4 className="font-medium mb-4">Let&apos;s Connect</h4>
               <div className="flex space-x-4 justify-center">
                 <a href="#" target="_blank">
                   <Linkedin />
