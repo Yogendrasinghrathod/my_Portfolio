@@ -30,7 +30,8 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href="https://github.com/Yogendrasinghrathod/Resume/blob/main/Yogendra_singh_rathod_MERN_Developer.pdf"
+                href="/YogendraSinghRathod_Resume.pdf"
+                download="Yogendra_Singh_Resume.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download Resume
