@@ -40,7 +40,7 @@ const categories = [
   "specialized" // Added 'specialized' category for the project-specific skills
 ];
 
-export const SkillsSection = () => {
+const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
 
   const filteredSkills = skills.filter(
@@ -98,3 +98,6 @@ export const SkillsSection = () => {
     </section>
   );
 };
+
+
+export default SkillsSection;

@@ -1,6 +1,6 @@
 import { Briefcase, Code } from "lucide-react";
 
-export const AboutSection = () => {
+const AboutSection = () => {
   return (
     <section id="about" className="py-24 px-4 relative">
       {" "}
@@ -74,3 +74,6 @@ export const AboutSection = () => {
     </section>
   );
 };
+
+
+export default AboutSection;

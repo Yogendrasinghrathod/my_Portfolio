@@ -13,7 +13,7 @@ import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import { Send } from "lucide-react";
 
-export const ContactSection = () => {
+const ContactSection = () => {
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({
@@ -113,3 +113,6 @@ export const ContactSection = () => {
     </section>
   );
 };
+
+
+export default ContactSection;

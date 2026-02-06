@@ -1,12 +1,24 @@
+import { lazy, Suspense } from "react";
+
 import { Navbar } from "../components/Navbar";
 import { ThemeToggle } from "../components/ThemeToggle";
 import { StarBackground } from "@/components/StarBackground";
 import { HeroSection } from "../components/HeroSection";
-import { AboutSection } from "../components/AboutSection";
-import { SkillsSection } from "../components/SkillsSection";
-import { ProjectsSection } from "../components/ProjectsSection";
-import { ContactSection } from "../components/ContactSection";
-import { Footer } from "../components/Footer";
+const AboutSection = lazy(() =>
+  import("../components/AboutSection")
+);
+const SkillsSection = lazy(() =>
+  import("../components/SkillsSection")
+);
+const ProjectsSection = lazy(() =>
+  import("../components/ProjectsSection")
+);
+const ContactSection = lazy(() =>
+  import("../components/ContactSection")
+);
+const Footer = lazy(() =>
+  import("../components/Footer")
+);
 
 export const Home = () => {
   return (
@@ -21,10 +33,13 @@ export const Home = () => {
       {/* Main Content */}
       <main>
         <HeroSection />
-        <AboutSection />
-        <SkillsSection />
-        <ProjectsSection />
-        <ContactSection />
+
+        <Suspense fallback={null}>
+          <AboutSection />
+          <SkillsSection />
+          <ProjectsSection />
+          <ContactSection />
+        </Suspense>
       </main>
 
       {/* Footer */}
