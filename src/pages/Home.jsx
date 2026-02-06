@@ -5,9 +5,9 @@ import { ThemeToggle } from "../components/ThemeToggle";
 import { HeroSection } from "../components/HeroSection";
 
 /* Lazy-loaded sections */
-const StarBackground = lazy(() =>
-  import("@/components/StarBackground")
-);
+
+import {StarBackground} from "../components/StarBackground"
+
 const AboutSection = lazy(() =>
   import("../components/AboutSection")
 );
