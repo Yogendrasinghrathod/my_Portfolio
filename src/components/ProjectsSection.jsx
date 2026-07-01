@@ -43,7 +43,7 @@ const projects = [
       "Chat Functionality",
       "Responsive Design",
     ],
-    demoUrl: "#",
+    demoUrl: "https://videoconji.netlify.app/",
     githubUrl: "https://github.com/Yogendrasinghrathod/VideoCon",
   },
   {
@@ -65,7 +65,7 @@ const projects = [
       "Clerk",
       "PostgreSQL",
     ],
-    demoUrl: "https://medicalassist.netlify.app/dashboard",
+    demoUrl: "https://medicalassist.netlify.app/",
     githubUrl: "https://github.com/Yogendrasinghrathod",
   },
   {
